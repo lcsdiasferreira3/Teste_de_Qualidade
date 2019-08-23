@@ -16,18 +16,18 @@ class MyFirstJUnitJupiterTests {
 	
 	@Test
 	void sub() {
-		assertEquals(90, calculator.sub(2, 2));
+		assertEquals(0, calculator.sub(2, 2));
 	}
 	
 	@Test
 	void mult() {
-		assertEquals(100, calculator.mult(5, 2));
+		assertEquals(10, calculator.mult(5, 2));
 	}
 	
 	@Test
 	void div() {
 		assertEquals(20, calculator.div(40, 2));
-		assertEquals(100, calculator.div(1000, 100));
+		assertEquals(10, calculator.div(1000, 100));
 	}
 
 	
